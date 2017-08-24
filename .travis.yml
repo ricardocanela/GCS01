@@ -7,6 +7,8 @@ python:
  - "3.3"
 
 install:
- - pip install -r requirements.txt
+sudo apt-get install python-pip
+sudo pip install django flake8
+python manage.py migrate
 
 script: python manage.py test
