@@ -1,2 +1,4 @@
-Django==1.11.4
-
+Django
+flake8
+gunicorn
+whitenoise==3.3.0
